@@ -1,6 +1,7 @@
 import styles from "../styles/Calendar.module.css";
 
 export default function Calendar() {
+  //@ts-ignore
   const Item = ({ text, date }) => {
     return <div className={styles.item}>{date}</div>;
   };

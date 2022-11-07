@@ -1,0 +1,37 @@
+
+> the-better-calendar@0.1.0 build
+> next build
+
+warn  - You have enabled experimental features (appDir, transpilePackages) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
+
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Linting and checking validity of types...
+Pages directory cannot be found at /Users/veerrohitv/Desktop/Coding Projects/the-better-calendar/client/pages or /Users/veerrohitv/Desktop/Coding Projects/the-better-calendar/client/src/pages. If using a custom path, please configure with the `no-html-link-for-pages` rule in your eslint config file.
+info  - Collecting page data...
+info  - Generating static pages (0/4)
+info  - Generating static pages (1/4)
+info  - Generating static pages (2/4)
+info  - Generating static pages (3/4)
+info  - Generating static pages (4/4)
+info  - Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ ○ /                                      0 B                0 B
+└ ○ /auth                                  136 B          64.3 kB
++ First Load JS shared by all              64.2 kB
+  ├ chunks/17-521a5439222a82c0.js          62 kB
+  ├ chunks/main-app-5dbe79f35bd947e6.js    200 B
+  └ chunks/webpack-494940f018d76400.js     2.01 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   179 B          79.7 kB
++ First Load JS shared by all              79.6 kB
+  ├ chunks/main-89022d600e76ddf0.js        77.4 kB
+  ├ chunks/pages/_app-9f5490aa3d56632f.js  192 B
+  └ chunks/webpack-494940f018d76400.js     2.01 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
