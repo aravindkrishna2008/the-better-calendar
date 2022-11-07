@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <div>
       <Calendar />
-      <h1>hi</h1>
+      <h1>Hi</h1>
     </div>
   );
 }
