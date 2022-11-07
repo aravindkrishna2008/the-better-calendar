@@ -1,11 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Calendar from "../components/calendar";
 
 export default function HomePage() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Calendar />
+      <h1>hi</h1>
     </div>
   );
 }
